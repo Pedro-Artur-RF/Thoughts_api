@@ -1,0 +1,16 @@
+.dashboard{
+    display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 880px;
+    justify-content: space-around;
+}
+
+.dashboard .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 100px;
+
+    padding: 32px 0px;
+}
