@@ -30,8 +30,4 @@ app.get('/home', (req, res) =>{
     return res.render('home')
 });
 
-app.get('/thoughts', (req, res) =>{
-    return res.render('thoughts')
-});
-
-app.listen(3333, console.log("Servidor ligado na porta 3333 🔵🔵🔵"));
+app.listen(3333, console.log("Servidor on na porta 3333"));
